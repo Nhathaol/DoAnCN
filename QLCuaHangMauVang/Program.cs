@@ -1,3 +1,5 @@
+using System.DirectoryServices.ActiveDirectory;
+
 namespace QLCuaHangMauVang
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace QLCuaHangMauVang
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new fmNhanVien ());
+            Application.Run(new fmHoaDon());
         }
     }
 }

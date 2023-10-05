@@ -75,6 +75,7 @@
             mnuThoat.Name = "mnuThoat";
             mnuThoat.Size = new Size(180, 22);
             mnuThoat.Text = "Thoát";
+            mnuThoat.Click += mnuThoat_Click;
             // 
             // mnuDanhMuc
             // 
@@ -88,7 +89,7 @@
             // 
             mnuNSX.Image = (Image)resources.GetObject("mnuNSX.Image");
             mnuNSX.Name = "mnuNSX";
-            mnuNSX.Size = new Size(180, 22);
+            mnuNSX.Size = new Size(145, 22);
             mnuNSX.Text = "Nhà Sản Xuất";
             mnuNSX.Click += mnuChatLieu_Click;
             // 
@@ -98,6 +99,7 @@
             mnuNhanVien.Name = "mnuNhanVien";
             mnuNhanVien.Size = new Size(180, 22);
             mnuNhanVien.Text = "Nhân Viên ";
+            mnuNhanVien.Click += mnuNhanVien_Click;
             // 
             // mnuKhachHang
             // 
@@ -105,6 +107,7 @@
             mnuKhachHang.Name = "mnuKhachHang";
             mnuKhachHang.Size = new Size(180, 22);
             mnuKhachHang.Text = "Khách Hàng";
+            mnuKhachHang.Click += mnuKhachHang_Click;
             // 
             // mnuHangHoa
             // 
@@ -112,6 +115,7 @@
             mnuHangHoa.Name = "mnuHangHoa";
             mnuHangHoa.Size = new Size(180, 22);
             mnuHangHoa.Text = "Hàng Hóa";
+            mnuHangHoa.Click += mnuHangHoa_Click;
             // 
             // mnuHoaDon
             // 
@@ -127,6 +131,7 @@
             mnuHoaDonBan.Name = "mnuHoaDonBan";
             mnuHoaDonBan.Size = new Size(180, 22);
             mnuHoaDonBan.Text = "Hóa Đơn Bán";
+            mnuHoaDonBan.Click += mnuHoaDonBan_Click;
             // 
             // mnuTimKiem
             // 
@@ -140,8 +145,9 @@
             // 
             mnuFindHoaDon.Image = (Image)resources.GetObject("mnuFindHoaDon.Image");
             mnuFindHoaDon.Name = "mnuFindHoaDon";
-            mnuFindHoaDon.Size = new Size(180, 22);
+            mnuFindHoaDon.Size = new Size(144, 22);
             mnuFindHoaDon.Text = "Hóa Đơn ";
+            mnuFindHoaDon.Click += mnuFindHoaDon_Click;
             // 
             // mnuFindHang
             // 
@@ -149,12 +155,13 @@
             mnuFindHang.Name = "mnuFindHang";
             mnuFindHang.Size = new Size(180, 22);
             mnuFindHang.Text = "Hàng";
+            mnuFindHang.Click += mnuFindHang_Click;
             // 
             // mnuFindKhachHang
             // 
             mnuFindKhachHang.Image = (Image)resources.GetObject("mnuFindKhachHang.Image");
             mnuFindKhachHang.Name = "mnuFindKhachHang";
-            mnuFindKhachHang.Size = new Size(180, 22);
+            mnuFindKhachHang.Size = new Size(144, 22);
             mnuFindKhachHang.Text = " KHách Hàng";
             mnuFindKhachHang.Click += kháchToolStripMenuItem_Click;
             // 
@@ -172,6 +179,7 @@
             mnuBCHangTon.Name = "mnuBCHangTon";
             mnuBCHangTon.Size = new Size(180, 22);
             mnuBCHangTon.Text = "Hàng Tồn";
+            mnuBCHangTon.Click += mnuBCHangTon_Click;
             // 
             // mnuBCDoanhThu
             // 
@@ -179,6 +187,7 @@
             mnuBCDoanhThu.Name = "mnuBCDoanhThu";
             mnuBCDoanhThu.Size = new Size(180, 22);
             mnuBCDoanhThu.Text = "Danh Thu";
+            mnuBCDoanhThu.Click += mnuBCDoanhThu_Click;
             // 
             // mnuTroGiup
             // 
@@ -194,6 +203,7 @@
             mnuHienTroGiup.Name = "mnuHienTroGiup";
             mnuHienTroGiup.Size = new Size(180, 22);
             mnuHienTroGiup.Text = "Trợ Giúp";
+            mnuHienTroGiup.Click += mnuHienTroGiup_Click;
             // 
             // Form1
             // 

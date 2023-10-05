@@ -25,5 +25,55 @@ namespace QLCuaHangMauVang
         {
 
         }
+
+        private void mnuThoat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuNhanVien_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuKhachHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuHangHoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuHoaDonBan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuFindHoaDon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuFindHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuBCHangTon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuBCDoanhThu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuHienTroGiup_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

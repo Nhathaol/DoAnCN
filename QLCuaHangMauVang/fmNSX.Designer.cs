@@ -34,6 +34,7 @@
             btnLuu = new Button();
             btnSua = new Button();
             btnXoa = new Button();
+            btnThem = new Button();
             panel2 = new Panel();
             txtTenNSX = new TextBox();
             label3 = new Label();
@@ -41,7 +42,6 @@
             label2 = new Label();
             label1 = new Label();
             dgvNSX = new DataGridView();
-            btnThem = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvNSX).BeginInit();
@@ -56,9 +56,9 @@
             panel1.Controls.Add(btnXoa);
             panel1.Controls.Add(btnThem);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 354);
+            panel1.Location = new Point(0, 423);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 96);
+            panel1.Size = new Size(860, 103);
             panel1.TabIndex = 0;
             // 
             // btnDong
@@ -116,6 +116,17 @@
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = true;
             // 
+            // btnThem
+            // 
+            btnThem.Image = Properties.Resources.add2;
+            btnThem.ImageAlign = ContentAlignment.MiddleLeft;
+            btnThem.Location = new Point(45, 26);
+            btnThem.Name = "btnThem";
+            btnThem.Size = new Size(100, 43);
+            btnThem.TabIndex = 0;
+            btnThem.Text = "Thêm";
+            btnThem.UseVisualStyleBackColor = true;
+            // 
             // panel2
             // 
             panel2.Controls.Add(txtTenNSX);
@@ -126,7 +137,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(800, 110);
+            panel2.Size = new Size(860, 132);
             panel2.TabIndex = 0;
             // 
             // txtTenNSX
@@ -176,29 +187,18 @@
             // 
             dgvNSX.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvNSX.Dock = DockStyle.Fill;
-            dgvNSX.Location = new Point(0, 110);
+            dgvNSX.Location = new Point(0, 132);
             dgvNSX.Name = "dgvNSX";
             dgvNSX.RowTemplate.Height = 25;
-            dgvNSX.Size = new Size(800, 244);
+            dgvNSX.Size = new Size(860, 291);
             dgvNSX.TabIndex = 2;
             dgvNSX.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // btnThem
-            // 
-            btnThem.Image = Properties.Resources.add2;
-            btnThem.ImageAlign = ContentAlignment.MiddleLeft;
-            btnThem.Location = new Point(45, 26);
-            btnThem.Name = "btnThem";
-            btnThem.Size = new Size(100, 43);
-            btnThem.TabIndex = 0;
-            btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
             // 
             // fmNSX
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(860, 526);
             Controls.Add(dgvNSX);
             Controls.Add(panel2);
             Controls.Add(panel1);
